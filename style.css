@@ -7,11 +7,15 @@ html {
 
 .hud {
   background-color: #1f2c2d;
-  width: 400px;
-  height: 150px;
+  width: 600px;
+  height: 220px;
   padding: 30px;
-  border: 10px solid #ff00ff;
+  border: 10px solid #817d81;
   margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
 /*border*/
