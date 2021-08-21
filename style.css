@@ -3,6 +3,10 @@ html {
   box-sizing: border-box;
 }
 
+main_button1 {
+  background: url(images/Computer\ Science\ Icon.png);
+}
+
 /*hud*/
 
 .hud {
@@ -15,6 +19,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
   width: 45%;
 }
 
@@ -34,16 +39,4 @@ body {
     background-size: cover;
     background-attachment: fixed;
   }
-}
-
-.myButton1 {
-  background: url(./images/Computer\ Science\ Icon.png) no-repeat;
-  cursor: pointer;
-  border: none;
-  width: 100px;
-  height: 100px;
-}
-
-.myButton1:active  /* use Dot here */ {
-  background: url(./images/Computer\ Science\ Icon.png) no-repeat;
 }
