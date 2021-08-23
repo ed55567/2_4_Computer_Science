@@ -3,8 +3,13 @@ html {
   box-sizing: border-box;
 }
 
-main_button1 {
-  background: url(images/Computer\ Science\ Icon.png);
+/*buttons*/
+.main_buttons {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 /*hud*/
