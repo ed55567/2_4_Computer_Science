@@ -7,6 +7,8 @@ html {
 .main_buttons {
   display: flex;
   margin-top: 55px;
+  margin-left: 50px;
+  margin-right: 50px;
   justify-content: space-around;
 }
 
@@ -17,18 +19,39 @@ html {
   width: 600px;
   height: 220px;
   padding: 30px;
-  border: 10px solid #817d81;
+  border: 10px solid hsl(300, 1%, 86%);
   margin-top: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 60%;
 }
 
 .title {
-  font-style: normal;
+  font-family: sans-serif;
   color: #fff;
   text-align: center;
+}
+
+h1 {
+  display: block;
+  font-size: 3.2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.67em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 #audio_main {
