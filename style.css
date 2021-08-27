@@ -13,13 +13,25 @@ html {
 }
 
 .responsive {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+}
+
+.captions {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#main_button_1 {
+  position: relative;
+  top: -12.9px;
 }
 /*hud*/
 
 .hud {
-  background-color: #1f2c2d;
+  background-color: hsl(184, 18%, 15%, 0.5);
   width: 600px;
   height: 220px;
   padding: 10px;
@@ -53,8 +65,8 @@ h1 {
 h3 {
   display: block;
   font-size: 1.67em;
-  margin-block-start: 0.5;
-  margin-block-end: 0.5em;
+  margin-block-start: 0.2;
+  margin-block-end: 0.2em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
@@ -83,7 +95,7 @@ body {
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1280px) {
   h3 {
     display: none;
   }
@@ -92,5 +104,11 @@ body {
 @media (max-width: 740px) {
   h1 {
     font-size: 2.1em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .main_buttons {
+    display: none;
   }
 }
