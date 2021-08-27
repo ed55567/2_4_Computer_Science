@@ -4,17 +4,21 @@ html {
 }
 
 /*buttons*/
+
+#main_button_1 {
+  position: relative;
+  top: -12.9px;
+  max-width: 100%;
+  height: auto;
+}
+
 .main_buttons {
   display: flex;
+  flex-direction: row;
   margin-top: 65px;
   margin-left: 50px;
   margin-right: 50px;
   justify-content: space-around;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }
 
 .captions {
@@ -24,10 +28,6 @@ html {
   font-size: 1.5rem;
 }
 
-#main_button_1 {
-  position: relative;
-  top: -12.9px;
-}
 /*hud*/
 
 .hud {
@@ -104,11 +104,5 @@ body {
 @media (max-width: 740px) {
   h1 {
     font-size: 2.1em;
-  }
-}
-
-@media screen and (max-width: 840px) {
-  .main_buttons {
-    display: none;
   }
 }
