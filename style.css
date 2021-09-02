@@ -87,6 +87,16 @@ body {
   background-attachment: fixed;
   background-color: #464646;
 }
+/*computer scientist*/
+
+.science_background {
+  background-image: url(./images/2_4_CS_Computer_Scientist_hud.png),
+    url(./images/border.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
+}
 
 @media screen and (max-width: 1920px) {
   body {
